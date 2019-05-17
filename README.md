@@ -54,4 +54,4 @@ Working
 
 About us
 ------
-<a href="www.uca.fr">Université Clermont Auvergne</a> - 2018.
+<a href="http://www.uca.fr">Université Clermont Auvergne</a> - 2018.
