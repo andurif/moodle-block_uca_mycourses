@@ -25,14 +25,18 @@
 
 $string['pluginname'] = 'Bloc UCA "Mes cours"';
 $string['uca_my_courses'] = 'Bloc "Mes cours"';
-$string['block_uca_mycourses:addinstance'] = 'Ajouter d\'un bloc "Mes cours"';
-$string['block_uca_mycourses:myaddinstance'] = 'Ajouter d\'un bloc "Mes cours" au tableau de bord';
+$string['uca_mycourses:addinstance'] = 'Ajouter d\'un bloc "Mes cours"';
+$string['uca_mycourses:myaddinstance'] = 'Ajouter d\'un bloc "Mes cours" au tableau de bord';
 $string['uca_my_courses:addinstance'] = 'Ajouter le bloc "Mes cours"';
 $string['uca_my_courses:myaddinstance'] = 'Ajouter le bloc "Mes cours" à ma page';
+$string['uca_my_courses:others'] = 'Autres cours disponibles';
 
-$string['tree_view'] = 'Vue en arbre';
+$string['tree_view'] = 'Vue en arborescence';
 $string['list_view'] = 'Vue en liste';
 $string['max_courses_option'] = 'Nombre maximum de cours visibles en vue liste';
 $string['max_courses_option_desc'] = 'Ce réglage permet de déterminer par défaut à partir de combien d\'espaces le bloc "Mes cours" passe en vue arbre si l\'utilisateur n\'a pas encore renseigné de préférence.';
 $string['roles_to_exclude'] = 'Rôles à exclure du bloc "Mes cours".';
-$string['roles_to_exclude_desc'] = 'Ce réglage permet de configurer les rôles à exclure pour l\'affichage du bloc "Mes cours". Si l\'utilisateur possède un de ces rôles dans un cours, le cours ne sera pas visible dans le bloc.';
+$string['roles_to_exclude_desc'] = 'Ce réglage permet de configurer les rôles à exclure pour l\'affichage du bloc "Mes cours". Si l\'utilisateur possède un de ces rôles dans un cours, le cours ne sera pas visible dans le bloc (et ne pourra être pas ajouté aux cours favoris).';
+
+$string['privacy:metadata:preference:mycoursesview'] = 'Ce bloc enregistre le type de vue sélectionné par l\'utilisateur pour visualiser ses cours.';
+$string['privacy:mycoursesview'] = 'Le type de vue actuellement choisi par l\'utilisateur pour visualiser ses cours est la {$a->view}.';

@@ -33,7 +33,6 @@
  * - the list view: displays only a list of these courses.
  *
  * @package    block_uca_mycourses
- * @author     Université Clermont Auvergne - Anthony Durif, Pierre Raynaud
  * @copyright  2018 Université Clermont Auvergne
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -65,6 +64,7 @@ class block_uca_mycourses extends block_base
             return $this->content;
         }
 
+        $this->content = new stdClass();
         $this->content->text = local_uca_mycourses_render_block_output($this->page);
 
         return $this->content;

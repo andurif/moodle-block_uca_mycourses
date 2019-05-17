@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $capabilities = array(
-    'block/block_uca_mycourses:myaddinstance' => array(
+    'block/uca_mycourses:myaddinstance' => array(
         'captype'       => 'read',
         'contextlevel'  => CONTEXT_SYSTEM,
         'archetypes'    => array(
@@ -35,7 +35,7 @@ $capabilities = array(
         'clonepermissionsfrom' => 'moodle/my:manageblocks'
     ),
 
-    'block/block_uca_mycourses:addinstance' => array(
+    'block/uca_mycourses:addinstance' => array(
         'riskbitmask' => RISK_SPAM | RISK_XSS,
         'captype'       => 'read',
         'contextlevel'  => CONTEXT_BLOCK,

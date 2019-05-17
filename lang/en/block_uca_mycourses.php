@@ -25,14 +25,18 @@
 
 $string['pluginname'] = 'UCA My courses block';
 $string['uca_my_courses'] = '"My courses" block';
-$string['block_uca_mycourses:addinstance'] = 'Add a new "My courses" block';
-$string['block_uca_mycourses:myaddinstance'] = 'Add a new "My courses" block to Dashboard';
+$string['uca_mycourses:addinstance'] = 'Add a new "My courses" block';
+$string['uca_mycourses:myaddinstance'] = 'Add a new "My courses" block to Dashboard';
 $string['uca_my_courses:addinstance'] = 'Add a new "My courses" block';
 $string['uca_my_courses:myaddinstance'] = 'Add a new "My courses" block to Dashboard';
+$string['uca_my_courses:others'] = 'Other courses';
 
 $string['tree_view'] = 'Tree view';
 $string['list_view'] = 'List view';
 $string['max_courses_option'] = 'Limit of visible courses on list view';
 $string['max_courses_option_desc'] = 'This switch will determine from how many courses we display the "My courses" block on tree view if the user has not chosen a preference yet.';
 $string['roles_to_exclude'] = 'Roles to exclude from "My courses" block.';
-$string['roles_to_exclude_desc'] = 'This setting allows you to control roles to exclude from "My courses" block. If the current user has one of these roles in a course, this course won\'t be visible in the block.';
+$string['roles_to_exclude_desc'] = 'This setting allows you to control roles to exclude from "My courses" block. If the current user has one of these roles in a course, this course won\'t be visible in the block (and can not be bookmarked).';
+
+$string['privacy:metadata:preference:mycoursesview'] = 'Ce bloc enregistre le type de vue sélectionné par l\'utilisateur pour visualiser ses cours.';
+$string['privacy:mycoursesview'] = 'Le type de vue actuellement choisi par l\'utilisateur pour visualiser ses cours est la {$a->view}.';
