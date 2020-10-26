@@ -27,9 +27,6 @@ $string['pluginname'] = 'UCA My courses block';
 $string['uca_my_courses'] = '"My courses" block';
 $string['uca_mycourses:addinstance'] = 'Add a new "My courses" block';
 $string['uca_mycourses:myaddinstance'] = 'Add a new "My courses" block to Dashboard';
-$string['uca_my_courses:addinstance'] = 'Add a new "My courses" block';
-$string['uca_my_courses:myaddinstance'] = 'Add a new "My courses" block to Dashboard';
-$string['uca_my_courses:others'] = 'Other courses';
 
 $string['tree_view'] = 'Tree view';
 $string['list_view'] = 'List view';

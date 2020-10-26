@@ -6,7 +6,7 @@ The block will need the local plugin which will contain all libs and functions n
 Requirements
 ------------
 - Moodle 3.3 (build 2017051500) or later.<br/>
--> Tests on Moodle 3.3 and 3.4 versions.<br/>
+-> Tests on Moodle 3.3 to 3.9 versions.<br/>
 - Dependencies on Moodle UCA My Courses Plugin (build 2018020801) to show plugin's informations.
 - Moodle 3.3.1 (build 2017051500) or later.
 

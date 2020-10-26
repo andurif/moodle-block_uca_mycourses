@@ -27,9 +27,6 @@ $string['pluginname'] = 'Bloc UCA "Mes cours"';
 $string['uca_my_courses'] = 'Bloc "Mes cours"';
 $string['uca_mycourses:addinstance'] = 'Ajouter d\'un bloc "Mes cours"';
 $string['uca_mycourses:myaddinstance'] = 'Ajouter d\'un bloc "Mes cours" au tableau de bord';
-$string['uca_my_courses:addinstance'] = 'Ajouter le bloc "Mes cours"';
-$string['uca_my_courses:myaddinstance'] = 'Ajouter le bloc "Mes cours" à ma page';
-$string['uca_my_courses:others'] = 'Autres cours disponibles';
 
 $string['tree_view'] = 'Vue en arborescence';
 $string['list_view'] = 'Vue en liste';
