@@ -6,7 +6,7 @@ Le bloc est étroitement lié au plugin qui contiendra toutes les librairies et 
 Requirements
 ------------
 - Moodle en version 3.3 (build 2017051500) ou plus récente.
--> Tests effectués sur des versions 3.3 à 3.9.<br/>
+-> Tests effectués sur des versions 3.3 à 3.10.<br/>
 - Dépendence sur le plugin UCA "Mes cours" (build 2018020801).
 - Thème qui supporte bootstrap.
 
@@ -55,4 +55,4 @@ Ce visuel est facilement modifiable grâce aux deux liens permettant de choisir 
 
 A propos
 ------
-<a href="www.uca.fr">Université Clermont Auvergne</a> - 2018.
+<a href="www.uca.fr">Université Clermont Auvergne</a> - 2021.
