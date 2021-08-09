@@ -6,8 +6,8 @@ Le bloc est étroitement lié au plugin qui contiendra toutes les librairies et 
 Requirements
 ------------
 - Moodle en version 3.3 (build 2017051500) ou plus récente.
--> Tests effectués sur des versions 3.3 à 3.10.<br/>
-- Dépendence sur le plugin UCA "Mes cours" (build 2018020801).
+-> Tests effectués sur des versions 3.3 à 3.11.0.<br/>
+- Dépendence sur <a href="https://github.com/andurif/moodle-local_uca_mycourses" target="_blank">le plugin UCA "Mes cours" </a>(build 2018020801).
 - Thème qui supporte bootstrap.
 
 Installation
@@ -18,7 +18,7 @@ Installation
 > git clone https://github.com/andurif/moodle-local_uca_mycourses.git local/uca_mycourses
 
 - En téléchargement:
-> Télécharger le zip depuis https://github.com/andurif/moodle-local_uca_mycourses/archive/master.zip, dézipper l'archive dans le dossier local/ et renommer le si besoin le dossier en "uca_mycourses".
+> Télécharger le zip depuis <a href="https://github.com/andurif/moodle-local_uca_mycourses/archive/refs/heads/master.zip">https://github.com/andurif/moodle-local_uca_mycourses/archive/refs/heads/master.zip</a>, dézipper l'archive dans le dossier local/ et renommer le si besoin le dossier en "uca_mycourses".
   
 2. Installation du bloc
 
@@ -26,7 +26,7 @@ Installation
 > git clone https://github.com/andurif/moodle-block_uca_mycourses.git blocks/uca_mycourses
 
 - En téléchargement:
-> Télécharger le zip depuis https://github.com/andurif/moodle-block_uca_mycourses/archive/master.zip, dézipper l'archive dans le dossier blocks/ et renommer le si besoin le dossier en "uca_mycourses".
+> Télécharger le zip depuis <a href="https://github.com/andurif/moodle-block_uca_mycourses/archive/refs/heads/master.zip">https://github.com/andurif/moodle-block_uca_mycourses/archive/refs/heads/master.zip, dézipper l'archive dans le dossier blocks/ et renommer le si besoin le dossier en "uca_mycourses".
 
 3. Aller sur la page de notifications pour finaliser l'installation du plugin.
 
@@ -55,4 +55,4 @@ Ce visuel est facilement modifiable grâce aux deux liens permettant de choisir 
 
 A propos
 ------
-<a href="www.uca.fr">Université Clermont Auvergne</a> - 2021.
+<a href="www.uca.fr" target="_blank">Université Clermont Auvergne</a> - 2021.

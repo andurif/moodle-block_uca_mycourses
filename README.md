@@ -6,8 +6,8 @@ The block will need the local plugin which will contain all libs and functions n
 Requirements
 ------------
 - Moodle 3.3 (build 2017051500) or later.<br/>
--> Tests on Moodle 3.3 to 3.10 versions.<br/>
-- Dependencies on Moodle UCA My Courses Plugin (build 2018020801) to show plugin's informations.
+-> Tests on Moodle 3.3 to 3.11.0 versions.<br/>
+- Dependencies on <a href="https://github.com/andurif/moodle-local_uca_mycourses" targer="_blank">Moodle UCA My Courses Plugin</a> (build 2018020801) to show plugin's informations.
 - Moodle 3.3.1 (build 2017051500) or later.
 
 Installation
@@ -18,7 +18,7 @@ Installation
 > git clone https://github.com/andurif/moodle-local_uca_mycourses.git local/uca_mycourses
 
 - Download way:
-> Download the zip from <a href="https://github.com/andurif/moodle-local_uca_mycourses/archive/master.zip">https://github.com/andurif/moodle-local_uca_mycourses/archive/master.zip</a>, unzip it in local/ folder and rename it "uca_mycourses" if necessary.
+> Download the zip from <a href="https://github.com/andurif/moodle-local_uca_mycourses/archive/refs/heads/master.zip">https://github.com/andurif/moodle-local_uca_mycourses/archive/refs/heads/master.zip</a>, unzip it in local/ folder and rename it "uca_mycourses" if necessary.
   
 2. Block installation
 
@@ -26,7 +26,7 @@ Installation
 > git clone https://github.com/andurif/moodle-block_uca_mycourses.git blocks/uca_mycourses
 
 - Download way:
-> Download the zip from <a href="https://github.com/andurif/moodle-block_uca_mycourses/archive/master.zip">https://github.com/andurif/moodle-block_uca_mycourses/archive/master.zip</a>, unzip it in blocks/ folder and rename it "uca_mycourses" if necessary.
+> Download the zip from <a href="https://github.com/andurif/moodle-block_uca_mycourses/archive/refs/heads/master.zip">https://github.com/andurif/moodle-block_uca_mycourses/archive/refs/heads/master.zip</a>, unzip it in blocks/ folder and rename it "uca_mycourses" if necessary.
 
 3. Then visit your Admin Notifications page to complete the installation.
 
@@ -54,4 +54,4 @@ Working
 
 About us
 ------
-<a href="http://www.uca.fr">Université Clermont Auvergne</a> - 2021.
+<a href="http://www.uca.fr" target="_blank">Université Clermont Auvergne</a> - 2021.

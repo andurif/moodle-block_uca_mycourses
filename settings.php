@@ -23,7 +23,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-//Limit of courses shown in the list view by default
+// Limit of courses shown in the list view by default.
 $settings->add(new admin_setting_configtext(
     'block_uca_mycourses/list_view_limit',
     get_string('max_courses_option', 'block_uca_mycourses'),
@@ -31,7 +31,7 @@ $settings->add(new admin_setting_configtext(
     '20'
 ));
 
-//List of roles that don't have to take in account to display the block
+// List of roles that don't have to take in account to display the block.
 $settings->add(new admin_setting_pickroles(
     'block_uca_mycourses/roles_to_exclude',
     get_string('roles_to_exclude', 'block_uca_mycourses'),
