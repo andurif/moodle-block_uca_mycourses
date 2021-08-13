@@ -45,13 +45,14 @@ Usages
 1. Display the list of your course in a block according 2 views (a tree view or a list view).
 2. Display courses you chose to bookmark.
 3. Advanced bookmarks management (filing in folders, renaming, display or not in block, updates in cases of deletion).
-4. Check (uncheck) the box called "Display finished courses" to choose to display them or not (cacher). By default, this option is checked.
+4. Option to display or not finished courses.
 
 Working
 -----
 1. Add the block to your moodle page.
 2. By default only your courses will be display (and not your bookmarks yet, logic) in the block. If you have only few courses the "list view" (less than the limit you choose in the administration) will be used. You can easily change this view thanks to two block links.   
 3. Click on "Manage my bookmarks" to add courses as bookmarks and potentially add them to the block.
+4. Check (uncheck) the box called "Display finished courses" to choose to display them or not (cacher). By default, this option is checked.
 
 About us
 ------

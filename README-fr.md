@@ -45,6 +45,7 @@ Usages
 1. Visualisation de la liste de mes cours dans un bloc selon 2 vues différentes (vue en liste ou vue en arborescence).
 2. Visualisation des cours que j'ai ajouté dans mes favoris. 
 3. Accès à la gestion avancée de mes cours mis en favori (classement dans des dossiers, renommage, affichage dans le bloc, mise à jour en cas de suppression).
+4. Option permettant d'afficher ou non les cours dont la date de fin a été atteinte.
 
 Fonctionnement
 -----
