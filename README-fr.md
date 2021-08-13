@@ -7,7 +7,7 @@ Requirements
 ------------
 - Moodle en version 3.3 (build 2017051500) ou plus récente.
 -> Tests effectués sur des versions 3.3 à 3.11.0.<br/>
-- Dépendence sur <a href="https://github.com/andurif/moodle-local_uca_mycourses" target="_blank">le plugin UCA "Mes cours" </a>(build 2018020801).
+- Dépendence sur <a href="https://github.com/andurif/moodle-local_uca_mycourses" target="_blank">le plugin UCA "Mes cours" </a>(build 2021080100).
 - Thème qui supporte bootstrap.
 
 Installation
@@ -52,6 +52,7 @@ Fonctionnement
 2. Par défaut juste la liste de vos cours sera affichée (et pas encore votre liste de cours favoris, logique). En fonction du nombre de cours que vous avez et de la limite que vous aurez fixé, ces cours s'afficheront sous la forme d'une liste ou sous la forme d'un arbre (reprennant les catégories de cours).
 Ce visuel est facilement modifiable grâce aux deux liens permettant de choisir la vue en haut du bloc.   
 3. Cliquer sur "Gérer mes favoris" pour accéder à la page de gestion des favoris et potentiellement les ajouter à ce bloc.
+4. Cocher (décocher) la case "Afficher les cours dont la date de fin est atteinte" pour afficher (cacher) ces cours. Par défaut, cette option est cochée.
 
 A propos
 ------

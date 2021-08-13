@@ -26,11 +26,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2019051700;
+$plugin->version   = 2021080100;
 $plugin->requires  = 2017051500;
 $plugin->cron      = 0;
 $plugin->component = 'block_uca_mycourses';
-$plugin->release   = 'v3.3-r1';
+$plugin->release   = 'v3.11-r1';
 $plugin->dependencies = array(
-    'local_uca_mycourses' => 2019051700,
+    'local_uca_mycourses' => 2021080100,
 );

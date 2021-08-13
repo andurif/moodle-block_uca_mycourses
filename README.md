@@ -7,7 +7,7 @@ Requirements
 ------------
 - Moodle 3.3 (build 2017051500) or later.<br/>
 -> Tests on Moodle 3.3 to 3.11.0 versions.<br/>
-- Dependencies on <a href="https://github.com/andurif/moodle-local_uca_mycourses" targer="_blank">Moodle UCA My Courses Plugin</a> (build 2018020801) to show plugin's informations.
+- Dependencies on <a href="https://github.com/andurif/moodle-local_uca_mycourses" targer="_blank">Moodle UCA My Courses Plugin</a> (build 2021080100) to show plugin's informations.
 - Moodle 3.3.1 (build 2017051500) or later.
 
 Installation
@@ -45,6 +45,7 @@ Usages
 1. Display the list of your course in a block according 2 views (a tree view or a list view).
 2. Display courses you chose to bookmark.
 3. Advanced bookmarks management (filing in folders, renaming, display or not in block, updates in cases of deletion).
+4. Check (uncheck) the box called "Display finished courses" to choose to display them or not (cacher). By default, this option is checked.
 
 Working
 -----
