@@ -35,5 +35,9 @@ $string['max_courses_option_desc'] = 'Ce réglage permet de déterminer par déf
 $string['roles_to_exclude'] = 'Rôles à exclure du bloc "Mes cours".';
 $string['roles_to_exclude_desc'] = 'Ce réglage permet de configurer les rôles à exclure pour l\'affichage du bloc "Mes cours". Si l\'utilisateur possède un de ces rôles dans un cours, le cours ne sera pas visible dans le bloc (et ne pourra être pas ajouté aux cours favoris).';
 
+$string['display_finished_courses'] = 'Afficher les cours dont la date de fin est atteinte';
+
 $string['privacy:metadata:preference:mycoursesview'] = 'Ce bloc enregistre le type de vue sélectionné par l\'utilisateur pour visualiser ses cours.';
 $string['privacy:mycoursesview'] = 'Le type de vue actuellement choisi par l\'utilisateur pour visualiser ses cours est la {$a->view}.';
+$string['privacy:finishedcourses_yes'] = 'L\'utilisateur a choisi de faire afficher les cours terminés dans son bloc.';
+$string['privacy:finishedcourses_no'] = 'L\'utilisateur a choisi de ne pas faire afficher les cours terminés dans son bloc.';

@@ -35,5 +35,9 @@ $string['max_courses_option_desc'] = 'This switch will determine from how many c
 $string['roles_to_exclude'] = 'Roles to exclude from "My courses" block.';
 $string['roles_to_exclude_desc'] = 'This setting allows you to control roles to exclude from "My courses" block. If the current user has one of these roles in a course, this course won\'t be visible in the block (and can not be bookmarked).';
 
+$string['display_finished_courses'] = 'Display finished courses';
+
 $string['privacy:metadata:preference:mycoursesview'] = 'Ce bloc enregistre le type de vue sélectionné par l\'utilisateur pour visualiser ses cours.';
 $string['privacy:mycoursesview'] = 'Le type de vue actuellement choisi par l\'utilisateur pour visualiser ses cours est la {$a->view}.';
+$string['privacy:finishedcourses_yes'] = 'The user displays the finished courses in his block.';
+$string['privacy:finishedcourses_no'] = 'The user does not display the finished courses in this block.';

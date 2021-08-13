@@ -43,6 +43,8 @@ class provider implements
 
     /** The user preference for the view of his courses. */
     const MYCOURSES_VIEW = 'uca_mycourses_view';
+    /** The user preference for the display of his finished courses. */
+    const FINISHED_COURSES = 'uca_mycourses_display_finished_courses';
 
     /**
      * Returns meta data about this system.
@@ -62,6 +64,7 @@ class provider implements
      */
     public static function export_user_preferences(int $userid) {
         $viewpref = get_user_preferences(self::MYCOURSES_VIEW, null, $userid);
+        $finishedpref = get_user_preferences(self::FINISHED_COURSES, null, $userid);
 
         if (isset($viewpref)) {
             $viewprefstring = get_string('privacy:mycoursesview', 'block_uca_mycourses', array('view' => $viewpref));
@@ -70,6 +73,18 @@ class provider implements
                 self::MYCOURSES_VIEW,
                 $viewpref,
                 $viewprefstring
+            );
+        }
+
+        if (isset($finishedpref)) {
+            $finishedprefstring = get_uca_mycourses_finished_courses_display()
+                ? get_string('privacy:finishedcourses_yes', 'block_uca_mycourses')
+                : get_string('privacy:finishedcourses_no', 'block_uca_mycourses');
+            \core_privacy\local\request\writer::export_user_preference(
+                'block_uca_mycourses',
+                self::MYCOURSES_VIEW,
+                $finishedpref,
+                $finishedprefstring
             );
         }
     }
